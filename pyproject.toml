@@ -1,0 +1,9 @@
+[project]
+name = "govcloud-fsx-inventory"
+version = "1.0.0"
+description = "List FSX file systems from GovCloud accounts in an AWS Organization"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "boto3>=1.26.0",
+]
